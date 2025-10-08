@@ -16,7 +16,7 @@ spec:
         - name: nexus-creds
       containers:
         - name: auth
-          image: jihengharbi/jihen-auth:latest
+          image: arbiamalaoui1/auth-app:latest
           ports:
             - containerPort: 3000
           env:
