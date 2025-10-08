@@ -18,7 +18,7 @@ spec:
         - name: nexus-creds
       containers:
         - name: orders
-          image: jihengharbi/jihen-orders:latest
+          image: arbiamalaoui1/orders-app:latest
           ports:
             - containerPort: 3000
           env:  # <--- ENV MUST BE inside the container spec
