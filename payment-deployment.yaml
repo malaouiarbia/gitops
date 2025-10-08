@@ -16,7 +16,7 @@ spec:
         - name: nexus-creds
       containers:
         - name: payments
-          image: jihengharbi/jihen-payments:latest
+          image: arbiamalaoui1/payment-app:latest
           ports:
             - containerPort: 3000
           env:
