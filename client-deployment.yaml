@@ -16,6 +16,6 @@ spec:
         - name: nexus-creds
       containers:
         - name: client
-          image: jihengharbi/jihen-client:latest
+          image: arbiamalaoui1/client-app:latest
           ports:
             - containerPort: 3000
