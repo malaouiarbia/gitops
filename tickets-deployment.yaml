@@ -18,7 +18,7 @@ spec:
         - name: nexus-creds
       containers:
         - name: tickets
-          image: jihengharbi/jihen-tickets:latest 
+          image: arbiamalaoui1/tickets-app:latest 
           ports:
             - containerPort: 3000
           env:
